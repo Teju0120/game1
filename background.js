@@ -52,31 +52,6 @@ imageObj.onload = function () {
 imageObj.src = 'https://scontent.fhyd11-1.fna.fbcdn.net/v/t1.15752-9/p960x960/116431441_300695987817235_4995300281551678089_n.png?_nc_cat=103&_nc_sid=b96e70&_nc_ohc=93tsg-qE2REAX_GVET2&_nc_ht=scontent.fhyd11-1.fna&oh=e7b0aefd48a2b988b59807ae54e0c467&oe=5F4B2D69';
 
 
-//rect board:
-var rect2 = new Konva.Rect({
-
-    x: width*(45/100),
-    y: 0,
-    width: width/10,
-    height: height/12,
-    fill: 'white ',
-    shadowBlur: 20,
-    cornerRadius: 250,
-});
-group.add(rect2);
-
-/*DDRAW CIRCLE*/
-
-var circle2 = new Konva.Circle({
-
-    x: width*(50/100),
-    y: 26,
-    radius: height/24,
-    fill: 'black ',
-    shadowBlur: 20,
-});
-group.add(circle2);
-
 var c = width*(55/100);
 var d = height*(45/100);
 var imageObj2 = new Image();
